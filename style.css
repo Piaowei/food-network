@@ -2,3 +2,37 @@ body {
   font-family: "Poppins", sans-serif;
   margin: 0px;
 }
+
+.flexible-container {
+  display: flex;
+  /* background-image: url(images/shapes/second-bg.png); */
+  margin-bottom: 5%;
+}
+
+.half-width-div {
+  width: 50%;
+  padding-left: 5%;
+}
+
+.span-h1-color {
+  color: orange;
+}
+
+.half-width-div h1 {
+  color: rgba(77, 74, 74, 0.959);
+}
+
+.half-width-div img {
+  width: 100%;
+}
+
+/* ######################### */
+
+.about-me-section {
+  background-image: url(images/shapes/second-bg.png);
+  background-repeat: no-repeat;
+}
+
+h1 {
+  font-size: 50px;
+}
