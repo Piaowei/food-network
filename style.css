@@ -12,6 +12,7 @@ body {
 .half-width-div {
   width: 50%;
   padding-left: 5%;
+  padding-right: 5%;
 }
 
 .span-color {
@@ -40,9 +41,6 @@ h1 {
 h2 {
   font-size: 30px;
   font-weight: 800;
-}
-
-.my-recipies-section {
 }
 
 .recipies-div {
@@ -106,9 +104,6 @@ h2 {
 
 #hudai {
   margin-top: 24%;
-}
-
-.recipie-title-bold {
 }
 
 .skip-the-diet {
@@ -186,4 +181,12 @@ footer {
 
 .followers-text {
   font-size: 40px;
+}
+
+.recipie-title-bold {
+  font-size: 30px;
+}
+
+p {
+  font-weight: 200;
 }
