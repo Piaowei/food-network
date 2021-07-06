@@ -6,7 +6,7 @@ body {
 .flexible-container {
   display: flex;
 
-  margin-bottom: 5%;
+  margin-bottom: 10%;
 }
 
 .half-width-div {
@@ -18,14 +18,11 @@ body {
   color: orange;
 }
 
-.half-width-div h1 {
-  color: rgba(77, 74, 74, 0.959);
-  /* margin-top: 90%; */
+.heading-color {
+  color: rgba(102, 102, 102, 0.959);
 }
-
 .half-width-div img {
   width: 100%;
-  /* margin-top: 90%; */
 }
 
 /* ######################### */
@@ -38,6 +35,11 @@ body {
 
 h1 {
   font-size: 50px;
+}
+
+h2 {
+  font-size: 30px;
+  font-weight: 800;
 }
 
 .my-recipies-section {
@@ -63,9 +65,9 @@ h1 {
 
 .recipies-title-div {
   /* border: 7px solid gray; */
-  box-shadow: 0px 0px 10px 2px rgb(184, 183, 183);
+  box-shadow: 0px 0px 20px 1px rgb(223, 221, 221);
   margin: 2%;
-  border-radius: 15px;
+  border-radius: 25px;
 }
 
 .recipies-text {
@@ -83,11 +85,13 @@ h1 {
 
 .anchor-size {
   color: white;
-  background-image: repeating-linear-gradient(orange, tomato);
+  background-image: repeating-linear-gradient(orange, rgba(255, 0, 0, 0.589));
   margin: 10px 40px;
   text-decoration: none;
   font-weight: 700;
-  padding: 10px 50px;
+  padding: 17px 35px;
+  border-radius: 50px;
+  box-shadow: 0px 0px 10px 0px rgba(223, 93, 17, 0.733);
 }
 
 .half-width-div-about-me {
@@ -95,8 +99,24 @@ h1 {
 }
 
 .anchor-div {
-  margin-top: 1%;
-  margin-left: 70%;
-  padding-bottom: 5%;
-  color: red;
+  margin-top: 22%;
+  margin-left: -10%;
+  padding-bottom: 10%;
+}
+
+#hudai {
+  margin-top: 24%;
+}
+
+.recipie-title-bold {
+}
+
+.skip-the-diet {
+  padding-top: 8%;
+}
+
+.anchor-div-contact-me {
+  margin-top: 10%;
+  margin-left: -7%;
+  padding-bottom: 10%;
 }
